@@ -34,6 +34,7 @@ function convertImageToVideo(videoName,imageName,lengh) {
             console.error('Error:', err);
         })
         .on('end', function (output) {
+            console.log('the video is ready !!');
             console.log('Video created in:', output);
         })
 
@@ -41,7 +42,5 @@ function convertImageToVideo(videoName,imageName,lengh) {
 async function createVideo(url, imageName, videoName, lengh) {
     await screenShotTaker.takeScreenShot('https://youtube.com/', imageName);
     convertImageToVideo(videoName, imageName, lengh)
-
-
 }
 module.exports.videoCreator=createVideo;

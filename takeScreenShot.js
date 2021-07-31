@@ -6,7 +6,7 @@ async function screenshot(url,filename) {
         .dest(__dirname)
         .run();
 
-    console.log('Finished generating screenshots!');
+    console.log('Finished generating screenshot!');
 }
 module.exports.takeScreenShot=screenshot;
 
