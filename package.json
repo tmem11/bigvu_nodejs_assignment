@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "capture-website": "^2.0.2",
+    "videoshow": "^0.1.12",
     "webshot": "^0.18.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
