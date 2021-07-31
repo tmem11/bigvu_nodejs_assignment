@@ -1,7 +1,11 @@
-const webshot = require('webshot');
+const videoCreator=require('./videoCreator');
+const pathSaver=require('./writeOutput');
+const input=require('./input.json');
 
-webshot('google.com', 'google.png', function(err) {
-    if(!err){
-        console.log('screenshot saved!');
-    }
-});
+
+function run(url, imageName, videoName, length) {
+    videoCreator.videoCreator(url, imageName, videoName, length);
+    pathSaver.savePath(videoName);
+
+}
+run(input.url, 'facebook', 'facebook', 10);
