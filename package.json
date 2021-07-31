@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "capture-website": "^2.0.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
     "pageres": "^6.2.3",
     "videoshow": "^0.1.12",
     "webshot": "^0.18.0"
