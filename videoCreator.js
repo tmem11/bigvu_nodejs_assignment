@@ -40,7 +40,7 @@ function convertImageToVideo(videoName,imageName,lengh) {
 
 }
 async function createVideo(url, imageName, videoName, lengh) {
-    await screenShotTaker.takeScreenShot('https://youtube.com/', imageName);
+    await screenShotTaker.takeScreenShot(url, imageName);
     convertImageToVideo(videoName, imageName, lengh)
 }
 module.exports.videoCreator=createVideo;
