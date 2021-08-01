@@ -30,10 +30,10 @@ to run the app please follow the instructions bellow
    ```
 #### 4. Download and Install FFmpeg `https://ffmpeg.org/download.html`
 ##### a simple guide on how to install ffmpeg on mac `https://youtu.be/H1o6MWnmwpY`
-#### 5. Install videoshow
-    ```sh
-    npm install videoshow
-    ```
+####     5. Install videoshow
+   ```sh
+   npm install videoshow
+   ```    
    
    
 ### Run `npm app.js`  in the project terminal and the app will perfectly work!
