@@ -36,7 +36,7 @@ to run the app please follow the instructions bellow
    ```    
    
    
-### Run `npm app.js`  in the project terminal and the app will perfectly work!
+### Run `node app.js`  in the project terminal and the app will perfectly work!
 
 
   
